@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  /* Цвета нашего нового интерфейса */
+  --color-brand-blue: #072d6b;
+  --color-brand-accent: #1d4c9a;
+  --color-brand-text: #FFFFFF;
+  --color-brand-muted: #94A3B8;
+  --color-brand-input-bg: rgba(255, 255, 255, 0.05);
+  --color-brand-input-ring: rgba(255, 255, 255, 0.1);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+:root {
+  /* Сбрасываем системные шрифты */
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--sans);
+  background-color: var(--color-brand-blue);
+  color: var(--color-brand-text);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--color-brand-blue);
+}
+
+#root {
+  /* Убираем фиксированную ширину 1126px и центрирование из шаблона */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Сброс для корректного отображения Box Model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}

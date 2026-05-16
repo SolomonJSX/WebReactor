@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebReactor.Backend", "WebReactor.Backend", "{F211B348-DE46-FAE4-7764-C6A7A7B3AC9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebReactor.Backend", "WebReactor.Backend\WebReactor.Backend\WebReactor.Backend.csproj", "{63A6102B-EB7D-F949-E379-20E50985C4DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A6102B-EB7D-F949-E379-20E50985C4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A6102B-EB7D-F949-E379-20E50985C4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A6102B-EB7D-F949-E379-20E50985C4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A6102B-EB7D-F949-E379-20E50985C4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63A6102B-EB7D-F949-E379-20E50985C4DD} = {F211B348-DE46-FAE4-7764-C6A7A7B3AC9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDCD4AD0-E228-4417-B083-AB6635678FAE}
+	EndGlobalSection
+EndGlobal

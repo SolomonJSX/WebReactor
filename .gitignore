@@ -1,0 +1,27 @@
+# --- Node.js / React / Vite ---
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# --- .NET Core ---
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+
+# --- Секреты и Конфигурации ---
+# Мы игнорируем Development настройки, чтобы случайно не слить ключ.
+# На Render мы передадим переменные окружения или настроим безопасно.
+appsettings.Development.json
+
+# --- Docker ---
+.dockerignore
