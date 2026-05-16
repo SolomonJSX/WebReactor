@@ -60,7 +60,7 @@ function App() {
   const activeError = error || speechError;
 
   return (
-      <div className="h-screen bg-brand-blue text-brand-text flex flex-col items-center overflow-hidden font-sans">
+      <div className="h-dvh bg-brand-blue text-brand-text flex flex-col items-center overflow-hidden font-sans">
         <div className="w-full max-w-5xl flex flex-col h-full p-6 md:p-10">
 
           <div className="shrink-0 mb-8">
